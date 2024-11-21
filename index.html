@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <body>
+    <div class="header">
+    
+      <div class="container">
+        <nav class="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+
+        </nav>
+        <div class="container-img">
+        <div class="header-text">
+          <h3>
+            Hi, I'm <span> Shikhar</span> <br />
+           </h3>
+           <h4>Backend developer</h4>
+           <p>Aspiring Backend Developer
+
+            Passionate about building scalable web applications using FastAPI, MongoDB, and MySQL. Strong foundation in HTML, CSS, and JavaScript. Currently working on personal projects like a YouTube clone and responsive designs. Always eager to learn and grow as a developer.</p>
+          </div>
+
+          <div>
+            <img src="./images/new.jpg" alt="" class="mainimg">
+          </div>
+
+        
+      </div>
+       
+      </div>
+    </div>
+
+   
+
+
+    <!-- -----------------------about---------------------------------------------- -->
+   
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-cal-1">
+            <img src="./images/another.jpg" alt="" class="aboutimg" />
+          </div>
+          <div class="about-cal-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              ipsa quasi vero repellendus dolorum facilis debitis illum
+              doloremque? Totam rem vitae distinctio ea obcaecati suscipit nisi
+              labore voluptatem impedit sit! Cumque, fugiat adipisci repellendus
+              sed distinctio non qui tenetur sint rem velit cupiditate, aperiam,
+              voluptates perferendis error ab quos impedit consequuntur culpa!
+              Perferendis laborum sit, commodi dignissimos at maxime aliquam!
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <div class="tab-contants active-tab" id="skills">
+                <ul>
+                    <li><span>HTML/CSS</span><br> Creating responsive and visually appealing web layouts </li>
+                    <li><span>JavaScript</span><br> Developing interactive and dynamic user interfaces </li>
+                    <li><span>Python</span><br> Writing efficient scripts and backend solutions </li>
+                </ul>
+            </div>
+            
+
+            <div class="tab-contants" id="Experience">
+                <ul>
+                    <li><span>Personal Projects</span><br> Worked on various web projects to strengthen my skills in front-end and backend development </li>
+                    <li><span>Internships</span><br> Currently seeking internship opportunities to gain hands-on experience in a professional setting </li>
+                    <li><span>Collaborative Learning</span><br> Participated in team-based coding challenges to solve real-world problems </li>
+                </ul>
+            </div>
+
+            <div class="tab-contants" id="Education">
+                <ul>
+                    <li><span>Bachelor of Arts (CSJMU)</span><br> Graduated with a solid foundation in the arts, enhancing my critical thinking and creativity </li>
+                    <li><span>Web Development Certification</span><br> Completed courses in HTML, CSS, JavaScript, and Python </li>
+                    <li><span>Self-Learning</span><br> Continuously improving my technical knowledge through online resources and projects </li>
+                </ul>
+            </div>
+            
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- ----------------------------------services--------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis optio dolore molestias. Est voluptate iusto, similique tempora ducimus voluptatem temporibus officia quia placeat ullam consequatur fugit doloribus sunt laudantium eveniet.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis optio dolore molestias. Est voluptate iusto, similique tempora ducimus voluptatem temporibus officia quia placeat ullam consequatur fugit doloribus sunt laudantium eveniet.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis optio dolore molestias. Est voluptate iusto, similique tempora ducimus voluptatem temporibus officia quia placeat ullam consequatur fugit doloribus sunt laudantium eveniet.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------------------------------------------------portfolio------------------------------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/project.jpg" alt="">
+                    <div class="layer">
+                        <h3>Amazon clone</h3>
+                        <p>
+                            This Amazon clone is a fully responsive e-commerce web application that replicates key features of the Amazon website, including product listings, search functionality, user authentication, and a shopping cart. Built using HTML, CSS, and JavaScript (or any other technologies you've used), it provides a seamless user experience for browsing and purchasing items.
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/project.jpg" alt="">
+                    <div class="layer">
+                        <h3>Amazon clone</h3>
+                        <p>
+                            This Amazon clone is a fully responsive e-commerce web application that replicates key features of the Amazon website, including product listings, search functionality, user authentication, and a shopping cart. Built using HTML, CSS, and JavaScript (or any other technologies you've used), it provides a seamless user experience for browsing and purchasing items.
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/project.jpg" alt="">
+                    <div class="layer">
+                        <h3>Amazon clone</h3>
+                        <p>
+                            This Amazon clone is a fully responsive e-commerce web application that replicates key features of the Amazon website, including product listings, search functionality, user authentication, and a shopping cart. Built using HTML, CSS, and JavaScript (or any other technologies you've used), it provides a seamless user experience for browsing and purchasing items.
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- -------------------------------------------------contact------------------------------------------------------------------ -->
+
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>shikhar23navgurukul.org</p>
+            <p> <i class="fa-solid fa-phone-volume"></i>7408856265</p>
+            <div class="social-icon">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin  "></i></a>
+            </div>
+            <!-- <a href="" class="btn btn2">Download CV</a> -->
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="message" rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- <input type="checkbox" id="toggle-bg" />
+    <label for="toggle-bg" class="checkbox-label"></label> -->
+
+  </body> 
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contants");
+
+    function opentab(tabname) {
+      // Remove active-link class from all tablinks
+      for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      // Remove active-tab class from all tabcontents
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+
+      // Add active-link to the clicked tab
+      event.target.classList.add("active-link");
+
+      // Add active-tab to the corresponding tab content
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    const checkbox = document.getElementById('toggle-bg');
+        checkbox.addEventListener('change', function() {
+            document.body.classList.toggle('white-bg', checkbox.checked);
+        });
+
+    
+
+  </script>
+</html>
